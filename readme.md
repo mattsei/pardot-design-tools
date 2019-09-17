@@ -83,6 +83,7 @@ At default values, no ```<style type="text/css">``` container is generated.
   - Stacked
     - ```
       form.form .pd-radio .value span {display: block !important; }
+      ```
 - **Required Field Character**
   - Default
   - *
