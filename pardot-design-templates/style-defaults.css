@@ -1,0 +1,80 @@
+/* These are the default styles set by Pardot when including the default CSS stylesheet in a Layout Template. */
+
+
+/* Targets the entire form */
+#pardot-form {
+  color: #666666;
+  font: 13px/120% Tahoma, Arial, Helvetica, Verdana, sans-serif;
+  margin: 0.5em 0 1em;
+  padding: 0.5em;
+}
+
+/* Targets form errors */
+#pardot-form span.error {
+  clear: left;
+  display: block;
+  font-weight: bold;
+  margin-top: 2px;
+  padding-left: 166px;
+}
+
+/* Targets required fields */
+#pardot-form p.required,
+#pardot-form span.required,
+#pardot-form label.required {
+  font-weight: bold;
+  background: url("/images/required.gif") no-repeat scroll right top transparent;
+
+}
+
+/* Targets field description */
+#pardot-form p span.description {
+  display: block;
+  margin-left: 153px;
+}
+
+/* Targets all form content */
+#pardot-form p {
+  clear: left;
+  line-height: 1.4em;
+  margin: 3px 5px;
+  padding: 3px 2px;
+}
+
+/* Targets dropdown fields */
+#pardot-form select {
+  font-weight: normal;
+}
+
+/* Targets checkbox fields */
+#pardot-form input[type="checkbox"] {
+  margin-right: 30px;
+  height: 50px;
+}
+
+/* Targets textarea fields */
+#pardot-form textarea.standard {
+  float: none;
+  height: 70px;
+  overflow: auto;
+  padding: 2px;
+  width: 200px;
+}
+
+/* Targets text fields */
+#pardot-form input {
+  font-weight: normal;
+  margin-right: 5px;
+  padding: 2px;
+}
+
+/* Targets width of text fields */
+#pardot-form input.text {
+  width: 200px;
+}
+
+/* Targets dependent fields */
+/*  If not using default css, include this styling in your CSS so that dependent fields are not displayed when not necessary*/
+.dependentFieldSlave {
+  display: none;
+}
